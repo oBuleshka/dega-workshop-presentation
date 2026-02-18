@@ -1,4 +1,5 @@
-﻿const deck = new Reveal({
+﻿// Initialize Reveal using global API (GitHub Pages safe)
+Reveal.initialize({
   controls: true,
   progress: true,
   center: true,
@@ -6,27 +7,27 @@
   slideNumber: true,
   keyboard: true,
   transition: 'slide',
-  backgroundTransition: 'fade',
-  fragments: true,
-  plugins: [RevealNotes]
+  backgroundTransition: 'fade'
 });
 
-deck.initialize().then(() => {
-  deck.on('slidechanged', (event) => {
-    const waveArm = document.querySelector('#wave-arm');
-    if (!waveArm) {
-      return;
-    }
+// After Reveal is ready
+Reveal.on('ready', function () {
+  handleWaveAnimation(Reveal.getCurrentSlide());
+});
 
-    if (event.currentSlide && event.currentSlide.id === 'js-slide') {
-      waveArm.classList.add('wave');
-    } else {
-      waveArm.classList.remove('wave');
-    }
-  });
+// When slide changes
+Reveal.on('slidechanged', function (event) {
+  handleWaveAnimation(event.currentSlide);
+});
 
+function handleWaveAnimation(currentSlide) {
   const waveArm = document.querySelector('#wave-arm');
-  if (deck.getCurrentSlide()?.id === 'js-slide' && waveArm) {
+
+  if (!waveArm) return;
+
+  if (currentSlide && currentSlide.id === 'js-slide') {
     waveArm.classList.add('wave');
+  } else {
+    waveArm.classList.remove('wave');
   }
-});
+}
