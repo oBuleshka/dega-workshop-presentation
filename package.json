@@ -1,0 +1,19 @@
+{
+  "name": "dega-workshop-presentation",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server . -c-1 -p 3000 -o",
+    "build": "node scripts/build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Dega Academy workshop presentation built with Reveal.js",
+  "dependencies": {
+    "reveal.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

@@ -1,0 +1,359 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --dega-white: #FCF3EA;
+  --dega-blue: #023AF9;
+  --dega-black: #232524;
+}
+
+html,
+body {
+  background: var(--dega-white);
+}
+
+.reveal {
+  background: var(--dega-white);
+  color: var(--dega-black);
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+}
+
+.reveal .slides {
+  text-align: center;
+}
+
+.reveal .slides section {
+  padding: 1.5rem 2.5rem;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  color: var(--dega-blue);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin: 0 0 0.8rem;
+  text-transform: none;
+}
+
+.reveal h1 {
+  font-size: clamp(2rem, 5vw, 4.2rem);
+}
+
+.reveal h2 {
+  font-size: clamp(1.7rem, 4vw, 3.4rem);
+}
+
+.reveal p,
+.reveal li {
+  color: var(--dega-black);
+  font-size: clamp(1rem, 2.3vw, 2rem);
+  line-height: 1.5;
+}
+
+.reveal ul {
+  list-style: none;
+  margin: 1.2rem auto;
+  max-width: 1100px;
+  padding: 0;
+}
+
+.reveal ul li {
+  background: rgba(2, 58, 249, 0.08);
+  border-left: 6px solid var(--dega-blue);
+  border-radius: 10px;
+  margin: 0.8rem 0;
+  padding: 0.6rem 1rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.reveal ul li:hover {
+  box-shadow: 0 10px 24px rgba(35, 37, 36, 0.1);
+  transform: translateY(-3px);
+}
+
+.reveal .accent {
+  color: var(--dega-blue);
+}
+
+.reveal .bottom-quote {
+  font-size: clamp(1.1rem, 2.1vw, 2.1rem);
+  font-weight: 800;
+  margin-top: 1.6rem;
+}
+
+.reveal .larger-note {
+  font-size: clamp(1.2rem, 2.4vw, 2.3rem);
+}
+
+.reveal .two-col,
+.reveal .three-col {
+  align-items: stretch;
+  display: grid;
+  gap: 1.3rem;
+  margin: 1.2rem auto;
+  max-width: 1100px;
+}
+
+.reveal .two-col {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.reveal .three-col {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.reveal .col-card {
+  background: #fff;
+  /* border: 2px solid rgba(2, 58, 249, 0.2); */
+  border-radius: 14px;
+  padding: 1.4rem;
+  text-align: left;
+}
+
+.reveal .col-card h3 {
+  font-size: clamp(1.2rem, 2.4vw, 2.2rem);
+  margin-bottom: 0.8rem;
+}
+
+.reveal .col-card p {
+  margin: 0.55rem 0;
+}
+
+.reveal .title-block {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.reveal .subtitle {
+  font-size: clamp(1.15rem, 2.6vw, 2.2rem);
+  font-weight: 600;
+}
+
+.reveal .academy {
+  color: var(--dega-blue);
+  font-size: clamp(1rem, 2vw, 1.8rem);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.reveal section.welcome-slide {
+  color: #fff;
+}
+
+.reveal .welcome-slide h1,
+.reveal .welcome-slide h2,
+.reveal .welcome-slide h3,
+.reveal .welcome-slide p,
+.reveal .welcome-slide .accent,
+.reveal .welcome-slide .academy {
+  color: #fff;
+}
+
+.reveal .welcome-slide .title-block {
+  gap: 1.2rem;
+}
+
+.reveal .welcome-slide h1 {
+  font-size: clamp(2.4rem, 6vw, 5.2rem);
+}
+
+.reveal .welcome-brand {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 0.7rem;
+}
+
+.reveal .dega-logo-mark {
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.22));
+  height: 200px;
+  width: 500px;
+}
+
+.reveal section.dark-slide {
+  background: var(--dega-blue);
+  border-radius: 4px 14px 14px 14px;
+}
+
+.reveal .dark-slide p,
+.reveal .dark-slide li {
+  color:white;
+}
+
+.reveal .dark-slide h1,
+.reveal .dark-slide h2,
+.reveal .dark-slide h3,
+.reveal .dark-slide .accent {
+  color: white;
+}
+
+.reveal .dark-slide ul li {
+  background: rgba(252, 243, 234, 0.1);
+  border-left-color: var(--dega-white);
+}
+
+.reveal .slide-number {
+  background: rgba(35, 37, 36, 0.82);
+  border-radius: 999px;
+  color: var(--dega-white);
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-size: 0.72rem;
+  padding: 0.25rem 0.58rem;
+}
+
+.flow-diagram {
+  display: grid;
+  gap: 0.35rem;
+  justify-items: center;
+  margin: 1.25rem auto;
+}
+
+.flow-step {
+  background: #fff;
+  /* border: 2px solid rgba(2, 58, 249, 0.2); */
+  border-radius: 10px;
+  font-weight: 600;
+  margin: 0;
+  min-width: min(650px, 90vw);
+  padding: 0.35rem 1.2rem;
+}
+
+.flow-arrow {
+  color: var(--dega-blue);
+  font-size: clamp(1.2rem, 2vw, 2rem);
+  font-weight: 800;
+  line-height: 1;
+  margin: 0;
+}
+
+.pillar-card {
+  align-items: center;
+  background: #fff;
+  /* border: 2px solid rgba(2, 58, 249, 0.2); */
+  border-radius: 22px;
+  box-shadow: 0 14px 30px rgba(35, 37, 36, 0.1);
+  display: grid;
+  justify-items: center;
+  margin: 0.9rem auto 0;
+  max-width: 430px;
+  min-height: 390px;
+  padding: 1rem;
+}
+
+.pillar-svg {
+  height: 320px;
+  width: 260px;
+}
+
+.skeleton-svg {
+  stroke: var(--dega-black);
+  stroke-linecap: round;
+  stroke-width: 8;
+}
+
+.skeleton-svg circle {
+  fill: none;
+}
+
+.styled-svg .shadow {
+  fill: rgba(35, 37, 36, 0.18);
+}
+
+.styled-svg .skin {
+  fill: #f2c7ab;
+}
+
+.styled-svg .hair {
+  fill: var(--dega-black);
+}
+
+.styled-svg .shirt {
+  fill: var(--dega-blue);
+}
+
+.styled-svg .limb {
+  stroke: var(--dega-black);
+  stroke-linecap: round;
+  stroke-width: 10;
+}
+
+#wave-arm {
+  transform-box: view-box;
+  transform-origin: 158px 118px;
+}
+
+.wave {
+  animation: waveHand 1s ease-in-out infinite;
+  transform-origin: 158px 118px;
+}
+
+@keyframes waveHand {
+  0% {
+    transform: rotate(-40deg);
+  }
+
+  25% {
+    transform: rotate(-120deg);
+  }
+
+  50% {
+    transform: rotate(-40deg);
+  }
+
+  75% {
+    transform: rotate(-120deg);
+  }
+
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+
+.code-card {
+  background: #fff;
+  /* border: 2px solid rgba(2, 58, 249, 0.2); */
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(35, 37, 36, 0.08);
+  margin: 1rem auto 0;
+  max-width: 900px;
+  padding: 1rem 1.25rem;
+  text-align: left;
+}
+
+.code-card code {
+  color: var(--dega-black);
+  display: block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+  font-size: clamp(0.8rem, 1.4vw, 1.2rem);
+  line-height: 1.5;
+  white-space: pre;
+}
+
+@media (max-width: 900px) {
+  .reveal .slides section {
+    padding: 1rem;
+  }
+
+  .reveal .two-col,
+  .reveal .three-col {
+    grid-template-columns: 1fr;
+  }
+
+  .flow-step {
+    min-width: 85vw;
+  }
+
+  .pillar-card {
+    max-width: 320px;
+    min-height: 320px;
+  }
+
+  .pillar-svg {
+    height: 260px;
+    width: 220px;
+  }
+}
