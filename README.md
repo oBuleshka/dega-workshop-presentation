@@ -1,25 +1,5 @@
 # 🌐 Dega Workshop Presentation
 
-```{=html}
-<p align="center">
-```
-`<b>`{=html}Interactive Web-Based Presentation
-Platform`</b>`{=html}`<br>`{=html} Built for the `<b>`{=html}WWW -- Web
-Weekend Workshop`</b>`{=html} by `<b>`{=html}Dega Academy`</b>`{=html}
-```{=html}
-</p>
-```
-```{=html}
-<p align="center">
-```
-`<img src="https://img.shields.io/badge/Presentation-Reveal.js-023AF9?style=for-the-badge">`{=html}
-`<img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-232524?style=for-the-badge">`{=html}
-`<img src="https://img.shields.io/badge/Deployment-GitHub%20Pages-FCF3EA?style=for-the-badge">`{=html}
-`<img src="https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge">`{=html}
-```{=html}
-</p>
-```
-
 ------------------------------------------------------------------------
 
 ## 🚀 Overview
