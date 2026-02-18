@@ -1,126 +1,155 @@
-🌐 Dega Workshop Presentation
+# 🌐 Dega Workshop Presentation
 
-Interactive web-based presentation for the WWW – Web Weekend Workshop by Dega Academy.
-Built entirely with HTML, CSS, and JavaScript using Reveal.js.
+```{=html}
+<p align="center">
+```
+`<b>`{=html}Interactive Web-Based Presentation
+Platform`</b>`{=html}`<br>`{=html} Built for the `<b>`{=html}WWW -- Web
+Weekend Workshop`</b>`{=html} by `<b>`{=html}Dega Academy`</b>`{=html}
+```{=html}
+</p>
+```
+```{=html}
+<p align="center">
+```
+`<img src="https://img.shields.io/badge/Presentation-Reveal.js-023AF9?style=for-the-badge">`{=html}
+`<img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-232524?style=for-the-badge">`{=html}
+`<img src="https://img.shields.io/badge/Deployment-GitHub%20Pages-FCF3EA?style=for-the-badge">`{=html}
+`<img src="https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge">`{=html}
+```{=html}
+</p>
+```
 
-🚀 Live Presentation
+------------------------------------------------------------------------
 
-🔗 Live URL:
-https://oBuleshka.github.io/dega-workshop-presentation/
+## 🚀 Overview
 
-🎯 About This Project
+The **Dega Workshop Presentation** is a fully interactive web-based
+slide system built using modern web technologies.
 
-This project is a fully interactive presentation website built to deliver the Dega Academy workshop.
+Instead of using traditional presentation software, this project
+demonstrates how:
 
-Instead of using traditional slide software, this presentation itself is a website — demonstrating the power of web technologies in real time.
+-   HTML builds structure\
+-   CSS defines visual identity\
+-   JavaScript adds interactivity
 
-It reinforces the workshop philosophy:
+This presentation itself is a live website --- proving that the web is
+not just content, but a platform.
 
-A website is not just a page — it is a platform.
+------------------------------------------------------------------------
 
-🛠 Tech Stack
+## ✨ Key Features
 
-Reveal.js – Presentation framework
+-   Fullscreen slide experience
+-   Arrow key navigation
+-   Presenter mode (Speaker View)
+-   Fragment animations
+-   Custom SVG animation (HTML → CSS → JavaScript demonstration)
+-   Responsive design
+-   Clean Dega branding
+-   GitHub Pages deployment ready
 
-HTML5
+------------------------------------------------------------------------
 
-CSS3 (Custom theme + animations)
+## 🎨 Design System
 
-JavaScript
-
-GitHub Pages – Deployment
-
-🎨 Design System
-Element	Color
-Main Blue	#023AF9
-White	#FCF3EA
-Dark Black	#232524
+  Element      Color
+  ------------ -----------
+  Main Blue    `#023AF9`
+  White        `#FCF3EA`
+  Dark Black   `#232524`
 
 Typography: Modern sans-serif (Inter)
 
-✨ Features
+------------------------------------------------------------------------
 
-Fullscreen slide presentation
+## 🛠 Tech Stack
 
-Arrow key navigation
+-   **Reveal.js** -- Presentation Framework
+-   **HTML5**
+-   **CSS3** -- Custom theme & animations
+-   **JavaScript**
+-   **GitHub Pages** -- Deployment
 
-Slide numbers & progress bar
+------------------------------------------------------------------------
 
-Presenter mode
+## 📂 Project Structure
 
-Fragment animations
 
-Custom SVG animation (HTML → CSS → JS demonstration)
+    dega-workshop-presentation/
+    │
+    ├── index.html
+    ├── script.js
+    ├── README.md
+    │
+    ├── assets/
+    │   ├── css/
+    │   │   └── dega-theme.css
+    │   └── vendor/
+    │       └── reveal/
+    │
+    ├── package.json
+    └── .gitignore
 
-Responsive design
+------------------------------------------------------------------------
 
-Clean Dega branding
-
-📂 Project Structure
-dega-workshop-presentation/
-│
-├── index.html
-├── script.js
-├── README.md
-│
-├── assets/
-│   ├── css/
-│   │   └── dega-theme.css
-│   └── vendor/
-│       └── reveal/
-│
-├── package.json
-└── .gitignore
-
-🧪 Running Locally
+## 🧪 Running Locally
 
 Clone the repository:
 
-git clone https://github.com/oBuleshka/dega-workshop-presentation.git
-cd dega-workshop-presentation
+    git clone https://github.com/oBuleshka/dega-workshop-presentation.git
+    cd dega-workshop-presentation
 
+Install dependencies (if using npm):
 
-If using NPM:
-
-npm install
-npm start
-
+    npm install
+    npm start
 
 Or simply open:
 
-index.html
-
+    index.html
 
 in your browser.
 
-🌍 Deployment
+------------------------------------------------------------------------
 
-This project is deployed using GitHub Pages.
+## 🌍 Deployment
 
-To deploy:
+This project is deployed using **GitHub Pages**.
 
-Push to main
+Steps:
 
-Go to Settings → Pages
+1.  Push to `main` branch
+2.  Go to **Settings → Pages**
+3.  Select branch: `main`
+4.  Folder: `/ (root)`
+5.  Save
 
-Select branch: main
+Live URL:
 
-Folder: / (root)
+    https://oBuleshka.github.io/dega-workshop-presentation/
 
-Save
+------------------------------------------------------------------------
 
-GitHub will automatically publish the site.
+## 🧠 Philosophy
 
-👤 Author
+> Mos jini vetëm konsumues të teknologjisë.\
+> Bëhuni krijues të saj.
 
-Olti Buleshka
-Founder, Dega Academy
+This project embodies the core message of Dega Academy ---\
+the future belongs to builders.
+
+------------------------------------------------------------------------
+
+## 👤 Author
+
+**Olti Buleshka**\
+Founder, Dega Academy\
 Pejë, Kosovo
 
-🏫 About Dega Academy
+------------------------------------------------------------------------
 
-Dega Academy is focused on empowering individuals to become builders, not just consumers, of technology.
+## 📄 License
 
-📄 License
-
-This project is for educational and workshop purposes.
+This project is created for educational and workshop purposes.
