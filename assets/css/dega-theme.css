@@ -170,8 +170,8 @@ body {
 
 .reveal .dega-logo-mark {
   filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.22));
-  height: 200px;
-  width: 500px;
+  height: 100px;
+  width: 300px;
 }
 
 .reveal section.dark-slide {
